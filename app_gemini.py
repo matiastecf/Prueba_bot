@@ -7,7 +7,7 @@ from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet
 
 # Configura la API de Google Gemini
-GEMINI_API_KEY = "tu_clave_api"  # Obtén de Google AI Studio: https://aistudio.google.com/
+GEMINI_API_KEY = "AIzaSyA6N_QZYxODLEaqcu7sP1t7Wq_Hhfk4X6U"  # Obtén de Google AI Studio: https://aistudio.google.com/
 genai.configure(api_key=GEMINI_API_KEY)
 
 def extract_features(info):
